@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "etudiants",
+  "info": {
+    "name": "Etudiants",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "Prenom": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
